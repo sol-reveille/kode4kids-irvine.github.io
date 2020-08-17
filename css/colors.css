@@ -1,0 +1,18 @@
+body {
+    background-color: #fcf5f6;
+}
+
+.banner {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+td {
+    border: 5px solid;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
