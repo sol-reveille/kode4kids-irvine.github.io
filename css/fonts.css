@@ -1,0 +1,22 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-size: 400%;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 150%;
+    font-weight: normal;
+}
+
+th {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 150%;
+}
