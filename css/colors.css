@@ -3,16 +3,34 @@ body {
 }
 
 .header {
-    background-color: black;
+    background-color: #fffcfd;
     color: white;
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
+}
+
+.header a:hover {
+    color: #ee3e80;
 }
 
 td {
     border: 5px solid;
     border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+.bottom {
+    color: black;
+}
+
+input#name:hover,
+input#email:hover,
+input#name:focus,
+input#email:focus,
+textarea:hover,
+textarea:focus {
+    background-color: white;
+    border: 1px solid black;
 }

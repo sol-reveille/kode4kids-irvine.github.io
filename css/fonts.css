@@ -15,6 +15,10 @@ h2 {
     font-weight: normal;
 }
 
+p {
+    font-size: 110%;
+}
+
 th {
     font-family: "Merriweather", serif;
     font-size: 150%;
@@ -25,4 +29,14 @@ h3 {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 125%;
+}
+
+.header a {
+    font-size: 115%;
+}
+
+.submit {
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 100%;
 }

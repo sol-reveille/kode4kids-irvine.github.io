@@ -16,11 +16,13 @@
     <div class = "header" id = "header">
         <a id = "main" href = "https://www.kode4kids.com"> Kode4Kids </a>
         <a href = "/index.html"> Home </a>
-        <a href = "./html/announcements.html"> Announcements </a>
-        <a href = ""> Courses </a>
-        <a href = ""> About Us </a>
-        <a href = ""> Sign Up </a>
+        <a href = "./announcements.html"> Announcements </a>
+        <a href = "./courses.html"> Courses </a>
+        <a href = "./about.html"> About Us </a>
+        <a href = "./signup.html"> Sign Up </a>
     </div>
+    <br />
+    <div>
     <h1>Kode4Kids- Irvine</h1>
     <table>
     <tr> <th colspan = "2">Our Programs</th> </tr>
@@ -41,15 +43,44 @@
         </div> </td>
     </tr>
     </table>
-    <div class = "main">
+    <div class = "body">
     <h2> Sign up to teach! </h2>
-    <p> We're always looking for more qualified tutors for our programs. If you have basic coding experience and would like to help, sign up here!</p>
-    <a class = "button" href = ""> Sign Up </a>
+    <p> We're always looking for more qualified tutors for our programs. If you have basic coding experience and would like to help, sign up here!
+    <br />
+    <a class = "button" href = ""> More Info </a>
+    </p>
     </div>
     <div class = "contact">
+    <h2> Contact Us </h2>
+        <form action = "">
+            <fieldset>
+            <div>
+            <label> <img src="images/name_icon.png" width="10" height="10"/> Name* <input type="text" name="name" id="name" size="30" maxlength="100" required> </label>
+            </div>
+            <br />
+            <div>
+            <label> Email* <input type="email" name="email" id="email" size="30" maxlength="200" required> </label>
+            </div>
+            <br />
+            <div>
+                <label for="comments"> Comments </label>
+                <br />
+                <textarea rows="4" cols="40" id="comments"></textarea>
+            </div>
+            <br />
+            <div>
+            <label> <input type="checkbox" name="subscribe" checked="checked"/> Sign up for email updates </label>
+            </div>
+            <br />
+            <div>
+            <input type="submit" value="Send" class="submit"/>
+            </div>
+            </fieldset>
+        </form>
+    </div>
     </div>
     <div class = "bottom">
+    &#169;kode4kids-irvine 2020
     </div>
-    <script src = "./js/header.js"></script>
 </body>
 </html>
