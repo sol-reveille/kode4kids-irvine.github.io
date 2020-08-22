@@ -3,17 +3,17 @@ body {
 }
 
 .header {
-    background-color: #fffcfd;
+    background-color: #3a4664;
     color: white;
 }
 
-a {
-    color: black;
+.header a {
+    color: #fffcfd;
     text-decoration: none;
 }
 
 .header a:hover {
-    color: #ee3e80;
+    color: white;
 }
 
 td {
@@ -35,9 +35,9 @@ textarea:focus {
     border: 1px solid black;
 }
 
-h1 {
-    background-color: #ffbbbe;
-    width: 100%;
+div#intro {
+    background-image: url("../images/header.png");
+    background-size: cover;
 }
 
 .submit {

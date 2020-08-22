@@ -41,22 +41,31 @@ p {
     margin-bottom: 0;
 }
 
-h1 {
-    padding-top: 40px;
-}
-
-table {
-    border-spacing: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .header {
     padding: 15px 15px;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    margin: 0px;
+    display: inline-block;
+    left: 0;
+}
+
+div#intro {
+    border: 2px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+table {
+    border-spacing: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button a {
@@ -87,4 +96,9 @@ div#a_one {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+}
+
+div#disclaimer {
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
