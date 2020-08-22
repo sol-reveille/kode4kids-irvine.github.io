@@ -34,3 +34,18 @@ textarea:focus {
     background-color: white;
     border: 1px solid black;
 }
+
+h1 {
+    background-color: #ffbbbe;
+    width: 100%;
+}
+
+.submit {
+    background-color: #ffbbbe;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    display: block;
+    width: 60px;
+    height: 35px;
+}

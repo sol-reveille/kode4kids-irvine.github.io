@@ -16,6 +16,14 @@ td {
     -webkit-border-radius: 10px;
 }
 
+tr {
+    padding: 0;
+}
+
+table {
+    margin-top: 0;
+}
+
 .bottom {
     margin-bottom: 0;
     margin-left: 0;
@@ -30,6 +38,7 @@ p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -72,15 +81,4 @@ textarea {
     border-radius: 5px;
     display: block;
     padding: 5px 5px 5px 5px;
-}
-
-.submit {
-    padding: 15px, 30px;
-    background-color: #ffbbbe;
-    border-radius: 5px;
-    border: 2px solid black;
-    text-align: center;
-    display: block;
-    width: 60px;
-    height: 35px;
 }
