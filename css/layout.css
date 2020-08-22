@@ -82,3 +82,9 @@ textarea {
     display: block;
     padding: 5px 5px 5px 5px;
 }
+
+div#a_one {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
