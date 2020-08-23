@@ -43,7 +43,7 @@ h3 {
 
 h1.serif {
     font-family: "Merriweather", serif;
-    font-size: 400%;
+    font-size: 300%;
     font-weight: normal;
 }
 
@@ -51,4 +51,12 @@ h2.serif {
     font-family: "Merriweather", sans-serif;
     font-size: 150%;
     font-weight: normal;
+}
+
+div.contact {
+    margin-bottom: 30px;
+}
+
+div#constitution p {
+    font-size: 125%;
 }

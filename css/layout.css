@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+div.block {
+    margin-top: 20px;
+}
+
 .header a.navlink {
     margin-right: 20px;
 }
@@ -45,6 +49,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 div.header {
@@ -58,7 +63,7 @@ div.header {
 }
 
 div#intro {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 50px;
     margin-right: 0;
     margin-left: 0;
@@ -66,7 +71,7 @@ div#intro {
     display: inline-block;
 }
 
-table {
+table.options {
     border-spacing: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -115,4 +120,25 @@ span.links {
 
 span#main {
     margin: 5px 5px 5px 5px;
+}
+
+div.body_about {
+    margin-top: 80px;
+}
+
+div#constitution {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 150px 30px 150px;
+    width: 800px;
+}
+
+table.tutors {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+div#meet {
+    margin-top: 30px;
 }
