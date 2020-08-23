@@ -22,7 +22,8 @@ td {
 }
 
 .bottom {
-    color: black;
+    color: white;
+    background-color: #3a4664;
 }
 
 input#name:hover,
@@ -38,6 +39,8 @@ textarea:focus {
 div#intro {
     background-image: url("../images/header.png");
     background-size: cover;
+    border: 2px hidden black;
+    border-bottom-color: black;
 }
 
 .submit {

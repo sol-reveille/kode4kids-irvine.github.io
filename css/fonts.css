@@ -4,13 +4,13 @@ body {
 }
 
 h1 {
-    font-family: "Merriweather", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 400%;
     font-weight: normal;
 }
 
 h2 {
-    font-family: "Merriweather", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 150%;
     font-weight: normal;
 }
@@ -20,7 +20,7 @@ p {
 }
 
 th {
-    font-family: "Merriweather", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 150%;
     font-weight: normal;
 }
@@ -39,4 +39,16 @@ h3 {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 100%;
+}
+
+h1.serif {
+    font-family: "Merriweather", serif;
+    font-size: 400%;
+    font-weight: normal;
+}
+
+h2.serif {
+    font-family: "Merriweather", sans-serif;
+    font-size: 150%;
+    font-weight: normal;
 }

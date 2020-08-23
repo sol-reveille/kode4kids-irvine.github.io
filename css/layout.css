@@ -1,5 +1,11 @@
-.header a {
-    margin-top: 10px;
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.header a.navlink {
     margin-right: 20px;
 }
 
@@ -28,7 +34,7 @@ table {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    top: 0;
+    padding: 5px;
     width: 100%;
 }
 
@@ -41,8 +47,7 @@ p {
     margin-bottom: 0;
 }
 
-.header {
-    padding: 15px 15px;
+div.header {
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -53,8 +58,7 @@ p {
 }
 
 div#intro {
-    border: 2px solid black;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 50px;
     margin-right: 0;
     margin-left: 0;
@@ -101,4 +105,14 @@ div#a_one {
 div#disclaimer {
     margin-top: 100px;
     margin-bottom: 20px;
+}
+
+span.links {
+    float: right;
+    width: auto;
+    padding: 15px;
+}
+
+span#main {
+    margin: 5px 5px 5px 5px;
 }
