@@ -122,7 +122,8 @@ span#main {
     margin: 5px 5px 5px 5px;
 }
 
-div.body_about {
+div.body_about,
+div.signups {
     margin-top: 80px;
 }
 
@@ -141,4 +142,15 @@ table.tutors {
 
 div#meet {
     margin-top: 30px;
+}
+
+table.signups {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+    width: 75%;
+}
+
+td.signups {
+    padding: 15px;
 }
