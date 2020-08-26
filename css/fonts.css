@@ -32,6 +32,12 @@ h3 {
     font-size: 125%;
 }
 
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 125%;
+}
+
 .header a {
     font-size: 115%;
 }
@@ -52,10 +58,6 @@ h2.serif {
     font-family: "Merriweather", sans-serif;
     font-size: 150%;
     font-weight: normal;
-}
-
-div.contact {
-    margin-bottom: 30px;
 }
 
 div#constitution p {
