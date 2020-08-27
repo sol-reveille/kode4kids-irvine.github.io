@@ -63,3 +63,7 @@ td.signups {
     border: 5px solid;
     border-color: #ade292 #3e004a #905fd0 #4120a9
 }
+
+img.profile {
+    border: 2px solid white;
+}
