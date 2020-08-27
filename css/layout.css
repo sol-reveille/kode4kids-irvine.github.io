@@ -163,7 +163,7 @@ table.signups {
 }
 
 td.signups {
-    padding: 15px;
+    padding: 30px;
 }
 
 div#map {
@@ -203,7 +203,7 @@ td.with_photo {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
+    padding: 15px;
     max-width: 400px;
 }
 
@@ -213,4 +213,8 @@ div.tutors_about {
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+img.profile {
+    border-radius: 50%;
 }
