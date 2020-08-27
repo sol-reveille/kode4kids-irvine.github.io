@@ -148,7 +148,7 @@ div#constitution {
 table.tutors {
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    max-width: 900px;
 }
 
 div#meet {
@@ -199,7 +199,7 @@ div#two {
     padding-top: 100px;
 }
 
-td.with_photo {
+div.with_photo {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -217,4 +217,8 @@ div.tutors_about {
 
 img.profile {
     border-radius: 50%;
+}
+
+img.decorator {
+    border-radius: 15px;
 }
