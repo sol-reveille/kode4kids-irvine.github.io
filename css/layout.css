@@ -222,3 +222,27 @@ img.profile {
 img.decorator {
     border-radius: 15px;
 }
+
+div.courses_body {
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div#kodingkids {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 15px;
+}
+
+div#kodingpro {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 15px;
+}

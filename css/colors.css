@@ -67,3 +67,15 @@ td.signups {
 img.profile {
     border: 2px solid white;
 }
+
+div#kodingkids {
+    border: 5px solid;
+    border-radius: 15px;
+    border-color: #aa0078 #000078 #b3b3d7 #d1cab0
+}
+
+div#kodingpro {
+    border: 5px solid;
+    border-radius: 15px;
+    border-color: #aa0078 #000078 #b3b3d7 #d1cab0
+}
